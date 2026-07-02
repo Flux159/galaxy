@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Docs & quickstart
+    url: https://flux159.github.io/galaxy-issues/
+    about: Install steps, platform notes, and troubleshooting.
+  - name: Downloads
+    url: https://github.com/mystralengine/galaxy-releases/releases/latest
+    about: The latest Galaxy release for all platforms.

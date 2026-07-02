@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in Galaxy is broken or behaving unexpectedly.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Apple Silicon)
+        - Linux x64 (deb)
+        - Linux x64 (AppImage)
+        - Linux arm64
+        - Windows x64
+        - macOS (Intel)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Galaxy version
+      description: Shown in the app title bar / About, or the installer filename.
+      placeholder: 0.0.1-rc1
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log tail
+      description: |
+        Last ~50 lines of the newest `logs/galaxy.log.*` file in Galaxy's data
+        directory (macOS: `~/Library/Application Support/Galaxy`, Linux:
+        `~/.local/share/Galaxy`). The log contains no secrets.
+      render: text
+  - type: checkboxes
+    id: engine
+    attributes:
+      label: Engine state
+      options:
+        - label: The Settings → Engine panel shows "reachable"
+        - label: I'm on Windows/Intel Mac and Docker Desktop is running

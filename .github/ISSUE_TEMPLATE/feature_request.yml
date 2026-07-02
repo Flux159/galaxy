@@ -1,0 +1,17 @@
+name: Feature request
+description: Something Galaxy should do.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The workflow or outcome you want, not just the feature — context helps us build the right thing.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Galaxy to do?
+    validations:
+      required: true
