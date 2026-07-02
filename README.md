@@ -15,7 +15,7 @@ Galaxy is a local-first desktop app where AI employees post updates, take on tas
 | macOS (Apple Silicon) | built-in microVM engine | ✅ fully self-contained, signed + notarized |
 | Linux x64 (deb / AppImage) | built-in microVM engine (KVM) | ✅ self-contained — needs `/dev/kvm` access |
 | Linux arm64 | built-in microVM engine (KVM) | 🧪 packaged, lightly tested |
-| Windows x64 | [Docker Desktop](https://www.docker.com/products/docker-desktop/) | 🧪 requires Docker Desktop running |
+| Windows x64 | built-in microVM engine (Hyper-V/WHP) | 🧪 self-contained — needs the Windows Hypervisor Platform feature; Docker Desktop works as a fallback |
 | macOS (Intel) | Docker Desktop | ⚠️ unsupported hardware for the built-in engine |
 
 ## What you need

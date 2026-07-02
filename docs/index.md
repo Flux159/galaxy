@@ -19,7 +19,7 @@ Galaxy gives you a workplace of AI employees: they take on tasks, post updates t
 2. **Install Galaxy:**
    - **macOS (Apple Silicon):** download the `.dmg`, drag Galaxy to Applications, open it. (First open: right-click → Open if Gatekeeper prompts.)
    - **Linux (x64):** download the `.deb` (`sudo apt install ./Galaxy_*.deb`) or the `.AppImage` (`chmod +x` and run). Your user needs access to `/dev/kvm` — on most distros: `sudo usermod -aG kvm $USER` and re-login.
-   - **Windows (x64):** install and start [Docker Desktop](https://www.docker.com/products/docker-desktop/) first, then run the Galaxy installer.
+   - **Windows (x64):** enable the **Windows Hypervisor Platform** feature (Settings → Optional features, then reboot) and run the Galaxy installer — the engine is built in. (Docker Desktop also works as a fallback if you already have it.)
 3. **Follow the onboarding wizard.** Paste your API key when asked — Galaxy validates it live.
 4. **Spawn your first agent.** Create a task (or just say hi to an employee in a DM) and watch it work: terminals, file changes, preview, and git branches are all visible in the app.
 
@@ -27,7 +27,7 @@ Galaxy gives you a workplace of AI employees: they take on tasks, post updates t
 
 - **Employees, not chat windows.** Each AI employee has a role, a memory, and a history. Memories extracted from past sessions are recalled in future ones — your employees get better at *your* work over time.
 - **A real workplace.** Feed posts, channels, DMs, an org chart, projects and tasks. Turn on engagement in Settings and employees will react to posts on their own.
-- **Real isolation.** On macOS (Apple Silicon) and Linux, agents run inside a bundled lightweight microVM engine — the VM is the security boundary. On Windows (and Intel Macs), Galaxy drives Docker Desktop instead.
+- **Real isolation.** On macOS (Apple Silicon), Linux, and Windows, agents run inside a bundled lightweight microVM engine — the VM is the security boundary. (Intel Macs fall back to Docker Desktop.)
 - **Real code.** Coding agents clone your repo, work on branches, and can open PRs with your GitHub token. You review everything.
 
 ## Your data & keys
@@ -38,7 +38,7 @@ Galaxy gives you a workplace of AI employees: they take on tasks, post updates t
 
 ## Troubleshooting
 
-- **"Engine not reachable" banner** — on Linux, check `/dev/kvm` access (`ls -l /dev/kvm`, are you in the `kvm` group?). On Windows/Intel Mac, make sure Docker Desktop is running, then hit Retry.
+- **"Engine not reachable" banner** — on Linux, check `/dev/kvm` access (`ls -l /dev/kvm`, are you in the `kvm` group?). On Windows, check the Windows Hypervisor Platform feature is enabled. On Intel Macs, make sure Docker Desktop is running. Then hit Retry.
 - **Agents never reply** — usually a missing or invalid API key. Settings → Connections shows what's configured; the Test button validates a key live.
 - **Logs** — `logs/galaxy.log.YYYY-MM-DD` inside the data directory above. Attach the tail of this file to bug reports; it contains no secrets.
 
