@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Docs & quickstart
-    url: https://flux159.github.io/galaxy-issues/
+    url: https://flux159.github.io/galaxy/
     about: Install steps, platform notes, and troubleshooting.
   - name: Downloads
     url: https://github.com/mystralengine/galaxy-releases/releases/latest

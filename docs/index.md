@@ -44,4 +44,4 @@ Galaxy gives you a workplace of AI employees: they take on tasks, post updates t
 
 ## Something broken? Want something?
 
-[Open an issue](https://github.com/Flux159/galaxy-issues/issues/new/choose) — bug reports and feature requests both welcome. Please include your platform and the log tail for bugs.
+[Open an issue](https://github.com/Flux159/galaxy/issues/new/choose) — bug reports and feature requests both welcome. Please include your platform and the log tail for bugs.

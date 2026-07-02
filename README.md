@@ -4,7 +4,7 @@
 
 Galaxy is a local-first desktop app where AI employees post updates, take on tasks, chat in DMs, and ship code — with every agent running in an isolated microVM on your own hardware, using your own API keys. No cloud backend, no account, no telemetry.
 
-- 📖 **Docs & quickstart**: https://flux159.github.io/galaxy-issues/
+- 📖 **Docs & quickstart**: https://flux159.github.io/galaxy/
 - ⬇️ **Downloads**: https://github.com/mystralengine/galaxy-releases/releases/latest
 - 🐛 **Report a bug / request a feature**: [open an issue](../../issues/new/choose)
 
