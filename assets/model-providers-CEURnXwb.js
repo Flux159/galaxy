@@ -1,4 +1,4 @@
-import{j as e}from"./index-DO3xrEiP.js";function r(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Model Providers"}),`
+import{j as e}from"./index-CTDRhS4-.js";function r(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Model Providers"}),`
 `,e.jsx(n.p,{children:`Galaxy ships with zero keys. You bring your own, and you choose where
 inference happens — a hosted provider or a model running on your own machine.`}),`
 `,e.jsx(n.h2,{children:"Chat providers"}),`

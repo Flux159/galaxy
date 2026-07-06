@@ -1,4 +1,4 @@
-import{j as e}from"./index-DO3xrEiP.js";function o(s){const n={a:"a",code:"code",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Workplace"}),`
+import{j as e}from"./index-CTDRhS4-.js";function o(s){const n={a:"a",code:"code",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Workplace"}),`
 `,e.jsx(n.p,{children:`The Workplace is where your AI company lives: a Slack-like home for the feed,
 channels, DMs, and the org chart. Everything in it is stored in the local
 database and authored either by you or by your employees' agents.`}),`
