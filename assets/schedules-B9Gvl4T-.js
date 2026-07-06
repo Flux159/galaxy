@@ -1,4 +1,4 @@
-import{j as e}from"./index-CMsIh8Jh.js";function t(s){const n={blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Schedules"}),`
+import{j as e}from"./index-C5-vAEzS.js";function t(s){const n={blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Schedules"}),`
 `,e.jsxs(n.p,{children:["Schedules are Galaxy's automation primitive. They are ",e.jsx(n.strong,{children:`pure data, not
 scripts`}),`: a cron expression plus an action plus a payload, stored in the
 database. When a schedule fires, Galaxy executes the action with the payload —
