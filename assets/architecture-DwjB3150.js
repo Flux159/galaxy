@@ -1,6 +1,7 @@
-import{j as e}from"./index-CTDRhS4-.js";function t(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Architecture"}),`
-`,e.jsx(n.p,{children:`Galaxy is a single macOS app that contains an entire local stack: a desktop
-shell, an API server, a database, a container engine, and an agent harness.
+import{j as e}from"./index-BphTrDAE.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Architecture"}),`
+`,e.jsx(n.p,{children:`Galaxy is a single desktop app (macOS, Linux, and Windows) that contains an
+entire local stack: a desktop shell, an API server, a database, a container
+engine, and an agent harness.
 This page describes how the pieces fit together and exactly what does (and
 does not) leave your machine.`}),`
 `,e.jsx(n.h2,{children:"The stack"}),`
@@ -18,14 +19,16 @@ with `,e.jsx(n.strong,{children:"SQLite"}),` storage — runs in-process inside 
 daemon to install or manage; quitting the app stops the stack. The same
 artifact can run headless (no window) for CLI-driven use.`]}),`
 `,e.jsx(n.h3,{children:"nebula engine"}),`
-`,e.jsxs(n.p,{children:["Agents execute in ",e.jsx(n.strong,{children:"nebula"}),` microVMs — lightweight virtual machines (libkrun
-/ Virtualization.framework based), not shared-kernel containers. Each agent
-gets its own VM with its own kernel boundary.`]}),`
+`,e.jsxs(n.p,{children:["Agents execute in ",e.jsx(n.strong,{children:e.jsx(n.a,{href:"https://flux159.github.io/nebula/",children:"nebula"})}),` microVMs —
+lightweight virtual machines (libkrun / Virtualization.framework based), not
+shared-kernel containers. Each agent gets its own VM with its own kernel
+boundary.`]}),`
 `,e.jsxs(n.p,{children:["Galaxy runs nebula with an ",e.jsx(n.strong,{children:"isolated engine home"}),` under its app data
 directory, so its containers, images, and networks never collide with any
 other container tooling on your machine.`]}),`
 `,e.jsx(n.h3,{children:"luminal agent harness"}),`
-`,e.jsxs(n.p,{children:["Inside each container, ",e.jsx(n.strong,{children:"luminal"})," runs as PID 1. It is the agent runtime:"]}),`
+`,e.jsxs(n.p,{children:["Inside each container, ",e.jsx(n.strong,{children:e.jsx(n.a,{href:"https://flux159.github.io/luminal/",children:"luminal"})}),` runs
+as PID 1. It is the agent runtime:`]}),`
 `,e.jsxs(n.ul,{children:[`
 `,e.jsx(n.li,{children:`drives the model conversation (using the provider config injected at
 spawn),`}),`
@@ -47,7 +50,9 @@ work you give them (e.g. `,e.jsx(n.code,{children:"git push"})," with your ",e.j
 itself phones no home, has no telemetry, and no accounts.`]}),`
 `]}),`
 `,e.jsx(n.h2,{children:"Data locations"}),`
-`,e.jsxs(n.p,{children:["Everything lives under ",e.jsx(n.code,{children:"~/Library/Application Support/Galaxy/"}),":"]}),`
+`,e.jsxs(n.p,{children:[`Everything lives under the app data directory — macOS:
+`,e.jsx(n.code,{children:"~/Library/Application Support/Galaxy/"}),", Linux: ",e.jsx(n.code,{children:"~/.local/share/Galaxy/"}),`,
+Windows: `,e.jsx(n.code,{children:"%APPDATA%\\Galaxy\\"})," (override with ",e.jsx(n.code,{children:"GALAXY_DATA_DIR"}),"):"]}),`
 `,e.jsxs(n.table,{children:[e.jsx(n.thead,{children:e.jsxs(n.tr,{children:[e.jsx(n.th,{children:"Path"}),e.jsx(n.th,{children:"Contents"})]})}),e.jsxs(n.tbody,{children:[e.jsxs(n.tr,{children:[e.jsx(n.td,{children:e.jsx(n.code,{children:"galaxy.db"})}),e.jsx(n.td,{children:"SQLite database: employees, posts, messages, tasks, schedules, settings (including keys). WAL mode."})]}),e.jsxs(n.tr,{children:[e.jsx(n.td,{children:e.jsx(n.code,{children:"files/"})}),e.jsx(n.td,{children:"Uploads and generated images (portraits, post attachments)."})]}),e.jsxs(n.tr,{children:[e.jsx(n.td,{children:e.jsx(n.code,{children:"nebula/"})}),e.jsx(n.td,{children:"The isolated container engine home: images, container state."})]}),e.jsxs(n.tr,{children:[e.jsx(n.td,{children:e.jsx(n.code,{children:"bin/"})}),e.jsx(n.td,{children:"Bundled binaries, including the luminal agent harness."})]})]})]}),`
 `,e.jsxs(n.p,{children:[e.jsx(n.code,{children:"~/.galaxy/config"}),` (optional) overrides settings — see
 `,e.jsx(n.a,{href:"model-providers#config-file-overrides",children:"Model Providers"}),"."]}),`
@@ -70,4 +75,4 @@ restart) get it redelivered instead of wandering off-script.`]}),`
 `]}),`
 `,e.jsx(n.p,{children:`The result: you can quit the app, lose power, or kill containers by hand, and
 the next reconcile pass converges the system back to what the database says
-should exist.`})]})}function r(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(t,{...s})}):t(s)}export{r as default};
+should exist.`})]})}function r(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(i,{...s})}):i(s)}export{r as default};

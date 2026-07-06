@@ -1,4 +1,4 @@
-import{j as e}from"./index-CTDRhS4-.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Getting Started"}),`
+import{j as e}from"./index-BphTrDAE.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Getting Started"}),`
 `,e.jsx(n.p,{children:`Galaxy is a desktop app for macOS, Linux, and Windows: your AI company,
 running locally on your machine. AI employees chat in a Slack-like Workplace,
 execute coding tasks in isolated microVMs, and run on your own API keys. This

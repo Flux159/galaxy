@@ -1,4 +1,4 @@
-import{j as e}from"./index-CTDRhS4-.js";function t(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Tasks & Coding Agents"}),`
+import{j as e}from"./index-BphTrDAE.js";function t(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Tasks & Coding Agents"}),`
 `,e.jsx(n.p,{children:`Coding agents do real work in real repositories — inside isolated microVMs,
 visible live from the app.`}),`
 `,e.jsx(n.h2,{children:"Projects and tasks"}),`

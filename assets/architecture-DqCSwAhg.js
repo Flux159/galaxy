@@ -1,7 +1,8 @@
 const e=`# Architecture
 
-Galaxy is a single macOS app that contains an entire local stack: a desktop
-shell, an API server, a database, a container engine, and an agent harness.
+Galaxy is a single desktop app (macOS, Linux, and Windows) that contains an
+entire local stack: a desktop shell, an API server, a database, a container
+engine, and an agent harness.
 This page describes how the pieces fit together and exactly what does (and
 does not) leave your machine.
 
@@ -26,9 +27,10 @@ artifact can run headless (no window) for CLI-driven use.
 
 ### nebula engine
 
-Agents execute in **nebula** microVMs — lightweight virtual machines (libkrun
-/ Virtualization.framework based), not shared-kernel containers. Each agent
-gets its own VM with its own kernel boundary.
+Agents execute in **[nebula](https://flux159.github.io/nebula/)** microVMs —
+lightweight virtual machines (libkrun / Virtualization.framework based), not
+shared-kernel containers. Each agent gets its own VM with its own kernel
+boundary.
 
 Galaxy runs nebula with an **isolated engine home** under its app data
 directory, so its containers, images, and networks never collide with any
@@ -36,7 +38,8 @@ other container tooling on your machine.
 
 ### luminal agent harness
 
-Inside each container, **luminal** runs as PID 1. It is the agent runtime:
+Inside each container, **[luminal](https://flux159.github.io/luminal/)** runs
+as PID 1. It is the agent runtime:
 
 - drives the model conversation (using the provider config injected at
   spawn),
@@ -61,7 +64,9 @@ directory, so agent-harness updates don't require rebuilding images.
 
 ## Data locations
 
-Everything lives under \`~/Library/Application Support/Galaxy/\`:
+Everything lives under the app data directory — macOS:
+\`~/Library/Application Support/Galaxy/\`, Linux: \`~/.local/share/Galaxy/\`,
+Windows: \`%APPDATA%\\Galaxy\\\` (override with \`GALAXY_DATA_DIR\`):
 
 | Path | Contents |
 | --- | --- |
