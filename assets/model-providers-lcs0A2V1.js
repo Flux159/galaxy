@@ -24,7 +24,7 @@ details matter:
   (e.g. \`http://localhost:8080/v1\` for llama.cpp).
 - From **inside agent containers**, the macOS host is reachable at
   \`192.168.64.1\` — the containers are microVMs with their own network, so
-  \`localhost\` refers to the container, not your Mac. Galaxy handles this
+  \`localhost\` refers to the container, not your machine. Galaxy handles this
   translation for you when injecting provider config into agents.
 
 With a local endpoint configured, nothing leaves your machine at all.

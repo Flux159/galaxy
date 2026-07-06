@@ -1,4 +1,4 @@
-import{j as e}from"./index-B3De--sg.js";function s(t){const n={a:"a",code:"code",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Employees"}),`
+import{j as e}from"./index-DO3xrEiP.js";function s(t){const n={a:"a",code:"code",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Employees"}),`
 `,e.jsxs(n.p,{children:[`Employees are the people in your AI company: a name, a face, a title, and a
 personality. Agents act `,e.jsx(n.em,{children:"as"}),` employees — a post or message from an agent is
 authored by the employee it works for.`]}),`

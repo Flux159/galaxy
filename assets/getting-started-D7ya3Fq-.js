@@ -1,20 +1,27 @@
 const e=`# Getting Started
 
-Galaxy is a macOS desktop app: your AI company, running locally on your Mac.
-AI employees chat in a Slack-like Workplace, execute coding tasks in isolated
-microVMs, and run on your own API keys. This page takes you from download to
-your first working agents.
+Galaxy is a desktop app for macOS, Linux, and Windows: your AI company,
+running locally on your machine. AI employees chat in a Slack-like Workplace,
+execute coding tasks in isolated microVMs, and run on your own API keys. This
+page takes you from download to your first working agents.
 
 ## Install
 
-1. Download \`Galaxy.app\` (see the [Download](../#download) section — Apple-signed
-   builds are coming soon).
-2. Drag it to **Applications**.
-3. Open it. That's it — the server, database, and container engine all run
+1. Download the build for your platform (see the [Download](../#download)
+   section — releases are coming soon):
+   - **macOS** (Apple Silicon, macOS 14+): open the signed DMG and drag
+     \`Galaxy.app\` to **Applications**.
+   - **Linux** (x64): install the \`.deb\` (\`sudo apt install ./Galaxy_*.deb\`)
+     or run the \`.AppImage\`. The built-in engine uses KVM (\`/dev/kvm\`).
+   - **Windows** (x64): run the installer (per-user, no admin needed). The
+     built-in engine uses the Windows Hypervisor Platform feature — enable it
+     under Settings → Optional features if prompted.
+2. Open it. That's it — the server, database, and container engine all run
    inside the app. There is nothing else to install.
 
-Requirements: an Apple Silicon Mac and an API key for at least one model
-provider (or a local model endpoint).
+Requirements: an API key for at least one model provider (or a local model
+endpoint). Intel Macs are not supported — the embedded microVM engine is
+Apple-Silicon-only on macOS.
 
 ## First launch
 

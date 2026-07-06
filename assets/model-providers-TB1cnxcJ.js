@@ -1,4 +1,4 @@
-import{j as e}from"./index-B3De--sg.js";function r(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Model Providers"}),`
+import{j as e}from"./index-DO3xrEiP.js";function r(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",span:"span",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Model Providers"}),`
 `,e.jsx(n.p,{children:`Galaxy ships with zero keys. You bring your own, and you choose where
 inference happens — a hosted provider or a model running on your own machine.`}),`
 `,e.jsx(n.h2,{children:"Chat providers"}),`
@@ -12,7 +12,7 @@ details matter:`}),`
 (e.g. `,e.jsx(n.code,{children:"http://localhost:8080/v1"})," for llama.cpp)."]}),`
 `,e.jsxs(n.li,{children:["From ",e.jsx(n.strong,{children:"inside agent containers"}),`, the macOS host is reachable at
 `,e.jsx(n.code,{children:"192.168.64.1"}),` — the containers are microVMs with their own network, so
-`,e.jsx(n.code,{children:"localhost"}),` refers to the container, not your Mac. Galaxy handles this
+`,e.jsx(n.code,{children:"localhost"}),` refers to the container, not your machine. Galaxy handles this
 translation for you when injecting provider config into agents.`]}),`
 `]}),`
 `,e.jsx(n.p,{children:"With a local endpoint configured, nothing leaves your machine at all."}),`

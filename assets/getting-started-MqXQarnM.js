@@ -1,18 +1,28 @@
-import{j as e}from"./index-B3De--sg.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Getting Started"}),`
-`,e.jsx(n.p,{children:`Galaxy is a macOS desktop app: your AI company, running locally on your Mac.
-AI employees chat in a Slack-like Workplace, execute coding tasks in isolated
-microVMs, and run on your own API keys. This page takes you from download to
-your first working agents.`}),`
+import{j as e}from"./index-DO3xrEiP.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Getting Started"}),`
+`,e.jsx(n.p,{children:`Galaxy is a desktop app for macOS, Linux, and Windows: your AI company,
+running locally on your machine. AI employees chat in a Slack-like Workplace,
+execute coding tasks in isolated microVMs, and run on your own API keys. This
+page takes you from download to your first working agents.`}),`
 `,e.jsx(n.h2,{children:"Install"}),`
 `,e.jsxs(n.ol,{children:[`
-`,e.jsxs(n.li,{children:["Download ",e.jsx(n.code,{children:"Galaxy.app"})," (see the ",e.jsx(n.a,{href:"../#download",children:"Download"}),` section — Apple-signed
-builds are coming soon).`]}),`
-`,e.jsxs(n.li,{children:["Drag it to ",e.jsx(n.strong,{children:"Applications"}),"."]}),`
+`,e.jsxs(n.li,{children:["Download the build for your platform (see the ",e.jsx(n.a,{href:"../#download",children:"Download"}),`
+section — releases are coming soon):`,`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"macOS"}),` (Apple Silicon, macOS 14+): open the signed DMG and drag
+`,e.jsx(n.code,{children:"Galaxy.app"})," to ",e.jsx(n.strong,{children:"Applications"}),"."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Linux"})," (x64): install the ",e.jsx(n.code,{children:".deb"})," (",e.jsx(n.code,{children:"sudo apt install ./Galaxy_*.deb"}),`)
+or run the `,e.jsx(n.code,{children:".AppImage"}),". The built-in engine uses KVM (",e.jsx(n.code,{children:"/dev/kvm"}),")."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Windows"}),` (x64): run the installer (per-user, no admin needed). The
+built-in engine uses the Windows Hypervisor Platform feature — enable it
+under Settings → Optional features if prompted.`]}),`
+`]}),`
+`]}),`
 `,e.jsx(n.li,{children:`Open it. That's it — the server, database, and container engine all run
 inside the app. There is nothing else to install.`}),`
 `]}),`
-`,e.jsx(n.p,{children:`Requirements: an Apple Silicon Mac and an API key for at least one model
-provider (or a local model endpoint).`}),`
+`,e.jsx(n.p,{children:`Requirements: an API key for at least one model provider (or a local model
+endpoint). Intel Macs are not supported — the embedded microVM engine is
+Apple-Silicon-only on macOS.`}),`
 `,e.jsx(n.h2,{children:"First launch"}),`
 `,e.jsx(n.p,{children:"On first launch a setup wizard walks you through:"}),`
 `,e.jsxs(n.ol,{children:[`
@@ -58,4 +68,4 @@ Terminals view. See `,e.jsx(n.a,{href:"tasks-and-coding-agents",children:"Tasks 
 `,e.jsxs(n.li,{children:["Container engine state: an isolated ",e.jsx(n.code,{children:"nebula/"})," directory under app data"]}),`
 `]}),`
 `,e.jsxs(n.p,{children:["See ",e.jsx(n.a,{href:"architecture",children:"Architecture"}),` for the full picture of what runs where and
-what (only model API calls) leaves your machine.`]})]})}function r(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(i,{...s})}):i(s)}export{r as default};
+what (only model API calls) leaves your machine.`]})]})}function o(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(i,{...s})}):i(s)}export{o as default};

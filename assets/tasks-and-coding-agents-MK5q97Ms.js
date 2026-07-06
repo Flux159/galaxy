@@ -1,4 +1,4 @@
-import{j as e}from"./index-B3De--sg.js";function t(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Tasks & Coding Agents"}),`
+import{j as e}from"./index-DO3xrEiP.js";function t(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Tasks & Coding Agents"}),`
 `,e.jsx(n.p,{children:`Coding agents do real work in real repositories — inside isolated microVMs,
 visible live from the app.`}),`
 `,e.jsx(n.h2,{children:"Projects and tasks"}),`
@@ -33,8 +33,8 @@ Use it to review what the agent has changed before it pushes.`]}),`
 `,e.jsx(n.p,{children:"Browse the container's filesystem:"}),`
 `,e.jsxs(n.ul,{children:[`
 `,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Browse"})," any directory in the container."]}),`
-`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Download"})," files from the container to your Mac."]}),`
-`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Upload"}),` files from your Mac into the container (e.g. an asset or a spec
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Download"})," files from the container to your machine."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Upload"}),` files from your machine into the container (e.g. an asset or a spec
 the agent needs).`]}),`
 `]}),`
 `,e.jsx(n.h3,{children:"Preview"}),`

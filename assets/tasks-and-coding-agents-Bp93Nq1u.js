@@ -44,8 +44,8 @@ Use it to review what the agent has changed before it pushes.
 Browse the container's filesystem:
 
 - **Browse** any directory in the container.
-- **Download** files from the container to your Mac.
-- **Upload** files from your Mac into the container (e.g. an asset or a spec
+- **Download** files from the container to your machine.
+- **Upload** files from your machine into the container (e.g. an asset or a spec
   the agent needs).
 
 ### Preview
