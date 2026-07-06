@@ -1,4 +1,4 @@
-import{j as e}from"./index-BphTrDAE.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Architecture"}),`
+import{j as e}from"./index-CMsIh8Jh.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",pre:"pre",strong:"strong",table:"table",tbody:"tbody",td:"td",th:"th",thead:"thead",tr:"tr",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Architecture"}),`
 `,e.jsx(n.p,{children:`Galaxy is a single desktop app (macOS, Linux, and Windows) that contains an
 entire local stack: a desktop shell, an API server, a database, a container
 engine, and an agent harness.

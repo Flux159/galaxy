@@ -1,4 +1,4 @@
-import{j as e}from"./index-BphTrDAE.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Getting Started"}),`
+import{j as e}from"./index-CMsIh8Jh.js";function i(s){const n={a:"a",code:"code",h1:"h1",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Getting Started"}),`
 `,e.jsx(n.p,{children:`Galaxy is a desktop app for macOS, Linux, and Windows: your AI company,
 running locally on your machine. AI employees chat in a Slack-like Workplace,
 execute coding tasks in isolated microVMs, and run on your own API keys. This
@@ -10,8 +10,8 @@ section — releases are coming soon):`,`
 `,e.jsxs(n.ul,{children:[`
 `,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"macOS"}),` (Apple Silicon, macOS 14+): open the signed DMG and drag
 `,e.jsx(n.code,{children:"Galaxy.app"})," to ",e.jsx(n.strong,{children:"Applications"}),"."]}),`
-`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Linux"})," (x64): install the ",e.jsx(n.code,{children:".deb"})," (",e.jsx(n.code,{children:"sudo apt install ./Galaxy_*.deb"}),`)
-or run the `,e.jsx(n.code,{children:".AppImage"}),". The built-in engine uses KVM (",e.jsx(n.code,{children:"/dev/kvm"}),")."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Linux"})," (x64): install the ",e.jsx(n.code,{children:".deb"})," (",e.jsx(n.code,{children:"sudo apt install ./Galaxy_*.deb"}),`).
+The built-in engine uses KVM (`,e.jsx(n.code,{children:"/dev/kvm"}),")."]}),`
 `,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Windows"}),` (x64): run the installer (per-user, no admin needed). The
 built-in engine uses the Windows Hypervisor Platform feature — enable it
 under Settings → Optional features if prompted.`]}),`

@@ -11,8 +11,8 @@ page takes you from download to your first working agents.
    section — releases are coming soon):
    - **macOS** (Apple Silicon, macOS 14+): open the signed DMG and drag
      \`Galaxy.app\` to **Applications**.
-   - **Linux** (x64): install the \`.deb\` (\`sudo apt install ./Galaxy_*.deb\`)
-     or run the \`.AppImage\`. The built-in engine uses KVM (\`/dev/kvm\`).
+   - **Linux** (x64): install the \`.deb\` (\`sudo apt install ./Galaxy_*.deb\`).
+     The built-in engine uses KVM (\`/dev/kvm\`).
    - **Windows** (x64): run the installer (per-user, no admin needed). The
      built-in engine uses the Windows Hypervisor Platform feature — enable it
      under Settings → Optional features if prompted.
